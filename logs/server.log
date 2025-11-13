@@ -3,7 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 218 ms
+  VITE v5.4.20  ready in 210 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.0.105:3000/
+1:56:27 AM [vite] ✨ new dependencies optimized: react-leaflet, leaflet
+1:56:27 AM [vite] ✨ optimized dependencies changed. reloading

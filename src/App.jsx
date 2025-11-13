@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import MapPharmacies from './components/MapPharmacies'
 
 function SearchBar({ onSearch }) {
   const [query, setQuery] = useState('')
@@ -235,6 +236,8 @@ function App() {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">FASO TiiM Roogo</h1>
           <p className="text-gray-600">Recherche de médicaments, commande et livraison rapide</p>
         </header>
+
+        <MapPharmacies city="Ouagadougou" />
 
         <SearchBar onSearch={handleSearch} />
 
